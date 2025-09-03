@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0056b3;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+}
+
+.problem-promise, .benefits, .social-proof, .final-cta {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.benefits h2, .final-cta h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #0056b3;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.benefits li {
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+}
+
+/* Social Proof Section */
+.social-proof {
+    text-align: center;
+}
+
+.social-proof p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.logos-placeholder {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.logos-placeholder img {
+    max-width: 150px;
+    height: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.logos-placeholder img:hover {
+    opacity: 1;
+}
